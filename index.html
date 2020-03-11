@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>PhotoGuide</title>
+  <link rel="stylesheet" href="css/infinite.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+  
+	<header class="header">
+		<div class="header__nav">
+			<div class="header__nav-inner">
+				<div class="header__logo"><img src="img/logo.svg" alt=""></div>
+				<div class="header__burger">
+					<span></span>
+				</div>
+				<nav class="menu">
+					<ul class="menu__list">
+						<li class="menu__list-item"><a href="#tariffs" class="menu__list-item__link">Цены и услуги</a></li>
+						<li class="menu__list-item"><a href="#contacts" class="menu__list-item__link">Контакты</a></li>
+						<li class="menu__list-item"><a href="#reviews" class="menu__list-item__link">Отзывы</a></li>
+						<li class="menu__list-item"><a href="#gallery" class="menu__list-item__link">Галерея</a></li>
+					</ul>
+				</nav>
+			</div>		
+		</div>
+		<div class="container">
+			<div class="header__page">
+				<div class="header__page-main">
+					<div class="header__page-main__title">Фотосессия <br> в Турции</div>
+					<div class="header__page-main__subtitle">по цене 7000 рублей за 100 фотографий <br> и 10 одноминутных видео для <a href="https://www.instagram.com/?hl=ru" target="_blank">Instagram</a>	 <img src="img/insta.png" alt="instagram"></div>
+					<a href="#contacts"class="header__page-main__button">Связаться с фотографом</a>
+				</div>
+				
+			</div>
+		</div>
+		<div class="header__page-receive">
+			<div class="container">
+				<div class="header__page-receive__title">
+					Вы получаете
+				</div>
+				<div class="header__page-receive__main">
+					<div class="receive__main-inner">
+						<div class="header__page-receive__item receive__item receive__item--1">
+							<div class="receive__item-img"><img src="img/receive-1.svg" alt=""></div>
+							<div class="receive__item-text">100 обработанных фото и оригиналы</div>
+						</div>
+						<div class="header__page-receive__item receive__item receive__item--2">
+							<div class="receive__item-img"><img src="img/receive-2.svg" alt=""></div>
+							<div class="receive__item-text">Первые 10 фото и 1 видео в течение 24 часов</div>
+						</div>
+						<div class="header__page-receive__item receive__item receive__item--3">
+							<div class="receive__item-img"><img src="img/receive-3.svg" alt=""></div>
+							<div class="receive__item-text">Все фотографии через 15 дней</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section class="gallery">
+		<div class="container">
+			<div class="gallery__inner">
+				<div class="gallery-text">
+					<div class="gallery-text__suptitle" id="gallery">Галерея</div>
+					<div class="gallery-text__title">Мы работаем во всех стилях</div>
+				</div>
+				<div class="gallery-popup">
+					<div class="popup__item">
+						<div class="popup__item-inner">
+							<div class="popup__item-text">Family</div>
+						</div>
+					</div>
+					<div class="popup__item">
+						<div class="popup__item-inner">
+							<div class="popup__item-text">Love Story</div>
+						</div>
+					</div>
+					<div class="popup__item">
+						<div class="popup__item-inner">
+							<div class="popup__item-text">Lifestyle</div>
+						</div>
+					</div>
+					<div class="popup__item">
+						<div class="popup__item-inner">
+							<div class="popup__item-text">Fashion</div>
+						</div>
+					</div>
+					<div class="popup__item">
+						<div class="popup__item-inner">
+							<div class="popup__item-text">Glamour</div>
+						</div>
+					</div>
+				</div>
+				<div class="gallery-slider">
+					<div class="gallery-slider__item slider-item">
+						<div class="slider-item__inner">
+							<div class="slider-item__inner-card inner-card--1">
+								<div class="inner-card__content">
+									<div class="inner-card__content-wrapper">
+										<div class="inner-card__image"><a data-fancybox="gallery" href="img/slider-bg-1.jpg"><img src="img/card-bg.svg" alt=""></a></div>
+										<div class="inner-card__text">Увеличить</div>
+									</div>
+								</div>
+							</div>
+							<div class="slider-item__inner-card inner-card--2">
+								<div class="inner-card__content">
+									<div class="inner-card__content-wrapper">
+										<div class="inner-card__image"><a data-fancybox="gallery" href="img/slider-bg-2.jpg"><img src="img/card-bg.svg" alt=""></a></div>
+										<div class="inner-card__text">Увеличить</div>
+									</div>
+								</div>
+							</div>
+							<div class="slider-item__inner-card inner-card--3">
+								<div class="inner-card__content">
+									<div class="inner-card__content-wrapper">
+										<div class="inner-card__image"><a data-fancybox="gallery" href="img/slider-bg-3.jpg"><img src="img/card-bg.svg" alt=""></a></div>
+										<div class="inner-card__text">Увеличить</div>
+									</div>
+								</div>
+							</div>
+							<div class="slider-item__inner-card inner-card--4">
+								<div class="inner-card__content">
+									<div class="inner-card__content-wrapper">
+										<div class="inner-card__image"><a data-fancybox="gallery" href="img/slider-bg-4.jpg"><img src="img/card-bg.svg" alt=""></a></div>
+										<div class="inner-card__text">Увеличить</div>
+									</div>
+								</div>
+							</div>
+							<div class="slider-item__inner-card inner-card--5">
+								<div class="inner-card__content">
+									<div class="inner-card__content-wrapper">
+										<div class="inner-card__image"><a data-fancybox="gallery" href="img/slider-bg-5.jpg"><img src="img/card-bg.svg" alt=""></a></div>
+										<div class="inner-card__text">Увеличить</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="gallery-slider__item slider-item">
+						<div class="slider-item__inner">
+							<div class="slider-item__inner-card inner-card--1">
+								<div class="inner-card__content">
+									<div class="inner-card__content-wrapper">
+										<div class="inner-card__image"><a data-fancybox="gallery" href="img/slider-bg-1.jpg"><img src="img/card-bg.svg" alt=""></a></div>
+										<div class="inner-card__text">Увеличить</div>
+									</div>
+								</div>
+							</div>
+							<div class="slider-item__inner-card inner-card--2">
+								<div class="inner-card__content">
+									<div class="inner-card__content-wrapper">
+										<div class="inner-card__image"><a data-fancybox="gallery" href="img/slider-bg-2.jpg"><img src="img/card-bg.svg" alt=""></a></div>
+										<div class="inner-card__text">Увеличить</div>
+									</div>
+								</div>
+							</div>
+							<div class="slider-item__inner-card inner-card--3">
+								<div class="inner-card__content">
+									<div class="inner-card__content-wrapper">
+										<div class="inner-card__image"><a data-fancybox="gallery" href="img/slider-bg-3.jpg"><img src="img/card-bg.svg" alt=""></a></div>
+										<div class="inner-card__text">Увеличить</div>
+									</div>
+								</div>
+							</div>
+							<div class="slider-item__inner-card inner-card--4">
+								<div class="inner-card__content">
+									<div class="inner-card__content-wrapper">
+										<div class="inner-card__image"><a data-fancybox="gallery" href="img/slider-bg-4.jpg"><img src="img/card-bg.svg" alt=""></a></div>
+										<div class="inner-card__text">Увеличить</div>
+									</div>
+								</div>
+							</div>
+							<div class="slider-item__inner-card inner-card--5">
+								<div class="inner-card__content">
+									<div class="inner-card__content-wrapper">
+										<div class="inner-card__image"><a data-fancybox="gallery" href="img/slider-bg-5.jpg"><img src="img/card-bg.svg" alt=""></a></div>
+										<div class="inner-card__text">Увеличить</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="gallery-slider__item slider-item">
+						<div class="slider-item__inner">
+							<div class="slider-item__inner-card inner-card--1">
+								<div class="inner-card__content">
+									<div class="inner-card__content-wrapper">
+										<div class="inner-card__image"><a data-fancybox="gallery" href="img/slider-bg-1.jpg"><img src="img/card-bg.svg" alt=""></a></div>
+										<div class="inner-card__text">Увеличить</div>
+									</div>
+								</div>
+							</div>
+							<div class="slider-item__inner-card inner-card--2">
+								<div class="inner-card__content">
+									<div class="inner-card__content-wrapper">
+										<div class="inner-card__image"><a data-fancybox="gallery" href="img/slider-bg-2.jpg"><img src="img/card-bg.svg" alt=""></a></div>
+										<div class="inner-card__text">Увеличить</div>
+									</div>
+								</div>
+							</div>
+							<div class="slider-item__inner-card inner-card--3">
+								<div class="inner-card__content">
+									<div class="inner-card__content-wrapper">
+										<div class="inner-card__image"><a data-fancybox="gallery" href="img/slider-bg-3.jpg"><img src="img/card-bg.svg" alt=""></a></div>
+										<div class="inner-card__text">Увеличить</div>
+									</div>
+								</div>
+							</div>
+							<div class="slider-item__inner-card inner-card--4">
+								<div class="inner-card__content">
+									<div class="inner-card__content-wrapper">
+										<div class="inner-card__image"><a data-fancybox="gallery" href="img/slider-bg-4.jpg"><img src="img/card-bg.svg" alt=""></a></div>
+										<div class="inner-card__text">Увеличить</div>
+									</div>
+								</div>
+							</div>
+							<div class="slider-item__inner-card inner-card--5">
+								<div class="inner-card__content">
+									<div class="inner-card__content-wrapper">
+										<div class="inner-card__image"><a data-fancybox="gallery" href="img/slider-bg-5.jpg"><img src="img/card-bg.svg" alt=""></a></div>
+										<div class="inner-card__text">Увеличить</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="gallery-slider__item slider-item">
+						<div class="slider-item__inner">
+							<div class="slider-item__inner-card inner-card--1">
+								<div class="inner-card__content">
+									<div class="inner-card__content-wrapper">
+										<div class="inner-card__image"><a data-fancybox="gallery" href="img/slider-bg-1.jpg"><img src="img/card-bg.svg" alt=""></a></div>
+										<div class="inner-card__text">Увеличить</div>
+									</div>
+								</div>
+							</div>
+							<div class="slider-item__inner-card inner-card--2">
+								<div class="inner-card__content">
+									<div class="inner-card__content-wrapper">
+										<div class="inner-card__image"><a data-fancybox="gallery" href="img/slider-bg-2.jpg"><img src="img/card-bg.svg" alt=""></a></div>
+										<div class="inner-card__text">Увеличить</div>
+									</div>
+								</div>
+							</div>
+							<div class="slider-item__inner-card inner-card--3">
+								<div class="inner-card__content">
+									<div class="inner-card__content-wrapper">
+										<div class="inner-card__image"><a data-fancybox="gallery" href="img/slider-bg-3.jpg"><img src="img/card-bg.svg" alt=""></a></div>
+										<div class="inner-card__text">Увеличить</div>
+									</div>
+								</div>
+							</div>
+							<div class="slider-item__inner-card inner-card--4">
+								<div class="inner-card__content">
+									<div class="inner-card__content-wrapper">
+										<div class="inner-card__image"><a data-fancybox="gallery" href="img/slider-bg-4.jpg"><img src="img/card-bg.svg" alt=""></a></div>
+										<div class="inner-card__text">Увеличить</div>
+									</div>
+								</div>
+							</div>
+							<div class="slider-item__inner-card inner-card--5">
+								<div class="inner-card__content">
+									<div class="inner-card__content-wrapper">
+										<div class="inner-card__image"><a data-fancybox="gallery" href="img/slider-bg-5.jpg"><img src="img/card-bg.svg" alt=""></a></div>
+										<div class="inner-card__text">Увеличить</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="gallery-slider__item slider-item">
+						<div class="slider-item__inner">
+							<div class="slider-item__inner-card inner-card--1">
+								<div class="inner-card__content">
+									<div class="inner-card__content-wrapper">
+										<div class="inner-card__image"><a data-fancybox="gallery" href="img/slider-bg-1.jpg"><img src="img/card-bg.svg" alt=""></a></div>
+										<div class="inner-card__text">Увеличить</div>
+									</div>
+								</div>
+							</div>
+							<div class="slider-item__inner-card inner-card--2">
+								<div class="inner-card__content">
+									<div class="inner-card__content-wrapper">
+										<div class="inner-card__image"><a data-fancybox="gallery" href="img/slider-bg-2.jpg"><img src="img/card-bg.svg" alt=""></a></div>
+										<div class="inner-card__text">Увеличить</div>
+									</div>
+								</div>
+							</div>
+							<div class="slider-item__inner-card inner-card--3">
+								<div class="inner-card__content">
+									<div class="inner-card__content-wrapper">
+										<div class="inner-card__image"><a data-fancybox="gallery" href="img/slider-bg-3.jpg"><img src="img/card-bg.svg" alt=""></a></div>
+										<div class="inner-card__text">Увеличить</div>
+									</div>
+								</div>
+							</div>
+							<div class="slider-item__inner-card inner-card--4">
+								<div class="inner-card__content">
+									<div class="inner-card__content-wrapper">
+										<div class="inner-card__image"><a data-fancybox="gallery" href="img/slider-bg-4.jpg"><img src="img/card-bg.svg" alt=""></a></div>
+										<div class="inner-card__text">Увеличить</div>
+									</div>
+								</div>
+							</div>
+							<div class="slider-item__inner-card inner-card--5">
+								<div class="inner-card__content">
+									<div class="inner-card__content-wrapper">
+										<div class="inner-card__image"><a data-fancybox="gallery" href="img/slider-bg-5.jpg"><img src="img/card-bg.svg" alt=""></a></div>
+										<div class="inner-card__text">Увеличить</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="tariffs">
+		<div class="container">
+			<div class="tariffs__inner">
+				<div class="tariffs-text">
+					<div class="tariffs__suptitle" id="tariffs">услуги и цены</div>
+					<div class="tariffs__title">Сколько стоят наши услуги</div>
+				</div>
+				<div class="tariffs-items">
+					<div class="tariffs-box">
+						<div class="tariffs-box__text">
+							<div class="tariffs-box__suptitle">Пакет</div>
+							<div class="tariffs-box__title">Лёгкий</div>
+						</div>
+						<div class="tariffs-box__descr">
+							<ul class="descr-list descr-list--1">
+								<li class="descr-list__item">Съёмка и обработка<br>60 фотографий</li>
+								<li class="descr-list__item">USB-флешка с фото</li>
+								<li class="descr-list__item">10 одноминутных видео для<br>Instagram</li>
+								<li class="descr-list__item">Аренда платья на фотосессию</li>
+								<li class="descr-list__item">Аренда квадрокоптера</li>
+								<li class="descr-list__item">Доставка в живописные места<br>Анталии</li>
+							</ul>
+						</div>
+						<div class="tarrifs-box__price">
+							<div class="price-number">7 000 ₽</div>
+							<a href="#contacts" class="price-button">Заказать</a>
+						</div>
+					</div>
+					<div class="tariffs-box">
+						<div class="tariffs-box__text">
+							<div class="tariffs-box__suptitle">Пакет</div>
+							<div class="tariffs-box__title">Премиум</div>
+						</div>
+						<div class="tariffs-box__descr">
+							<ul class="descr-list descr-list--2">
+								<li class="descr-list__item">Съёмка и обработка 100<br>фотографий</li>
+								<li class="descr-list__item">USB-флешка с фото</li>
+								<li class="descr-list__item">20 одноминутных видео для<br>Instagram</li>
+								<li class="descr-list__item">Аренда платья на фотосессию</li>
+								<li class="descr-list__item">Аренда квадрокоптера</li>
+								<li class="descr-list__item">Доставка в живописные места<br>Анталии</li>
+							</ul>
+						</div>
+						<div class="tarrifs-box__price">
+							<div class="price-number">12 000 ₽</div>
+							<a href="#contacts" class="price-button">Заказать</a>
+						</div>
+					</div>
+					<div class="tariffs-box">
+						<div class="tariffs-box__text">
+							<div class="tariffs-box__suptitle">Пакет</div>
+							<div class="tariffs-box__title">Стандарт</div>
+						</div>
+						<div class="tariffs-box__descr">
+							<ul class="descr-list descr-list--3">
+								<li class="descr-list__item">Съёмка и обработка 80<br>фотографий</li>
+								<li class="descr-list__item">USB-флешка с фото</li>
+								<li class="descr-list__item">15 одноминутных видео для<br>Instagram</li>
+								<li class="descr-list__item">Аренда платья на фотосессию</li>
+								<li class="descr-list__item">Аренда квадрокоптера</li>
+								<li class="descr-list__item">Доставка в живописные места<br>Анталии</li>
+							</ul>
+						</div>
+						<div class="tarrifs-box__price">
+							<div class="price-number">9 000 ₽</div>
+							<a href="#contacts" class="price-button">Заказать</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="team">
+		<div class="container">
+			<div class="team__inner">
+				<div class="team-photos">
+					<div class="team-photos__bg">
+						<img src="img/team.png" alt="our team">
+					</div>
+					<div class="team-photos__video-icon">
+						<a data-fancybox href="https://www.youtube.com/watch?v=P0oJqfLzZzQ" class="video-icon__link">
+							<img src="img/play-img.svg" alt="play" class="play-img">
+						</a>
+					</div>
+				</div>
+				<div class="team-descr">
+					<div class="team-descr__inner">
+						<div class="team-descr__suptitle">
+							Наша команда
+						</div>
+						<div class="team-descr__title">
+							Посмотрите 2-минутное видео
+							о нас, чтобы лучше понять,<br>
+							как проходят наши фотосессии
+						</div>
+						<div class="team-descr__text">
+							<p>Делаем так, чтобы воспоминания об отдыхе остались у вас
+							на всю жизнь. Для этого заранее продумываем сюжет
+							и подбираем интересные геолокации
+							. <span><a href="#">Наша цель</a></span> - создавать атмосферные фотографии, которые передают сюжет
+							и рассказывают историю.</p>
+							<p>
+								Ладим с детьми, знаем уникальные места вблизи Анталии, помогаем позировать, умеем смешить и ловить мгновения.
+								На наших фотографиях вы будете выглядеть естественно красиво, даже если это ваша первая съемка. А чтобы убедиться, что вам с нами будет комфортно, <a href="#">посмотрите 2-минутное видео</a>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="reviews">
+		<div class="container">
+			<div class="reviews__inner">
+				<div class="reviews-text">
+					<div class="reviews-text__suptitle" id="reviews">Отзывы</div>
+					<div class="reviews-text__title">Узнайте, что пишут о нас наши клиенты <br>
+						в своих <a href="https://www.instagram.com/?hl=ru" target="_blank">Instagram</a> <img src="img/insta.png" alt="instagram"> аккаунтах</div>
+				</div>
+				<div class="reviews-slider">
+					<div class="reviews-slider__item">
+						<div class="reviews-slider__item-inner">
+							<div class="reviews-slider__img">
+								<img src="img/reviews-slider__img-1.jpg" alt="">
+							</div>
+							<div class="reviews-slider__text">
+								<div class="reviews-slider__text-title">Просто восторг!</div>
+								<div class="reviews-slider__text-descr">Анталия, берег средиземного моря! Получила массу удовольствия от фотосесси с ребятами из photiguide.biz Спасибо! Получила массу удовольствия от фотосессии! Всех подруг отправляю к вам! </div>
+								<div class="reviews-slider__text-link">
+									<img src="img/insta-reviews.svg" alt="instagram" class="text-link__img">
+									<span class="insta-link">@Masha_Sharapova</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="reviews-slider__item">
+						<div class="reviews-slider__item-inner">
+							<div class="reviews-slider__img">
+								<img src="img/reviews-slider__img-2.jpg" alt="">
+							</div>
+							<div class="reviews-slider__text">
+								<div class="reviews-slider__text-title">Просто восторг!</div>
+								<div class="reviews-slider__text-descr">Анталия, берег средиземного моря! Получила массу удовольствия от фотосесси с ребятами из photiguide.biz Спасибо! Получила массу удовольствия от фотосессии! Всех подруг отправляю к вам! </div>
+								<div class="reviews-slider__text-link">
+									<img src="img/insta-reviews.svg" alt="instagram" class="text-link__img">
+									<span class="insta-link">@Masha_Sharapova</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="reviews-slider__item">
+						<div class="reviews-slider__item-inner">
+							<div class="reviews-slider__img">
+								<img src="img/reviews-slider__img-1.jpg" alt="">
+							</div>
+							<div class="reviews-slider__text">
+								<div class="reviews-slider__text-title">Просто восторг!</div>
+								<div class="reviews-slider__text-descr">Анталия, берег средиземного моря! Получила массу удовольствия от фотосесси с ребятами из photiguide.biz Спасибо! Получила массу удовольствия от фотосессии! Всех подруг отправляю к вам! </div>
+								<div class="reviews-slider__text-link">
+									<img src="img/insta-reviews.svg" alt="instagram" class="text-link__img">
+									<span class="insta-link">@Masha_Sharapova</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="reviews-slider__item">
+						<div class="reviews-slider__item-inner">
+							<div class="reviews-slider__img">
+								<img src="img/reviews-slider__img-2.jpg" alt="">
+							</div>
+							<div class="reviews-slider__text">
+								<div class="reviews-slider__text-title">Просто восторг!</div>
+								<div class="reviews-slider__text-descr">Анталия, берег средиземного моря! Получила массу удовольствия от фотосесси с ребятами из photiguide.biz Спасибо! Получила массу удовольствия от фотосессии! Всех подруг отправляю к вам! </div>
+								<div class="reviews-slider__text-link">
+									<img src="img/insta-reviews.svg" alt="instagram" class="text-link__img">
+									<span class="insta-link">@Masha_Sharapova</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="reviews-slider__item">
+						<div class="reviews-slider__item-inner">
+							<div class="reviews-slider__img">
+								<img src="img/reviews-slider__img-1.jpg" alt="">
+							</div>
+							<div class="reviews-slider__text">
+								<div class="reviews-slider__text-title">Просто восторг!</div>
+								<div class="reviews-slider__text-descr">Анталия, берег средиземного моря! Получила массу удовольствия от фотосесси с ребятами из photiguide.biz Спасибо! Получила массу удовольствия от фотосессии! Всех подруг отправляю к вам! </div>
+								<div class="reviews-slider__text-link">
+									<img src="img/insta-reviews.svg" alt="instagram" class="text-link__img">
+									<span class="insta-link">@Masha_Sharapova</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="contacts">
+		<div class="container">
+			<div class="contacts__inner">
+				<div class="contacts-text">
+					<div class="contacts-text__suptitle" id="contacts">
+						Контакты
+					</div>
+					<div class="contacts-text__title">
+						Свяжитесь с нами удобным вам способом, чтобы договориться
+						о встрече-знакомстве и обсудить детали
+					</div>
+				</div>
+				<div class="contacts-links">
+					<div class="contacts-links__inner">
+						<div class="contacts-logo">
+							<a href="https://telegram.org/" target="_blank" class="contacts-logo__image-wrapper image-wrapper--1"><img class="contacts-logo__image" src="img/contacts/contacts-1.svg" alt="Telegram"></a>
+							<div class="contacts-logo__text">Telegram</div>
+						</div>
+						<div class="contacts-logo">
+							<a href="https://www.viber.com/ru/" target="_blank" class="contacts-logo__image-wrapper image-wrapper--2"><img class="contacts-logo__image" src="img/contacts/contacts-2.svg" alt="Viber"></a>
+							<div class="contacts-logo__text">Viber</div>
+						</div>
+						<div class="contacts-logo">
+							<a href="https://www.facebook.com/" target="_blank" class="contacts-logo__image-wrapper image-wrapper--3"><img class="contacts-logo__image" src="img/contacts/contacts-3.svg" alt="Facebook"></a>
+							<div class="contacts-logo__text">Facebook</div>
+						</div>
+						<div class="contacts-logo">
+							<a href="https://www.instagram.com/?hl=ru" target="_blank" class="contacts-logo__image-wrapper image-wrapper--4"><img class="contacts-logo__image" src="img/contacts/contacts-4.svg" alt="Instagram"></a>
+							<div class="contacts-logo__text">Instagram</div>
+						</div>
+						<div class="contacts-logo">
+							<a href="https://www.whatsapp.com/" target="_blank" class="contacts-logo__image-wrapper image-wrapper--5"><img class="contacts-logo__image" src="img/contacts/contacts-5.svg" alt="Whatsapp"></a>
+							<div class="contacts-logo__text">whatsapp</div>
+						</div>
+						<div class="contacts-logo">
+							<a href="https://vk.com/" target="_blank" class="contacts-logo__image-wrapper image-wrapper--6"><img class="contacts-logo__image" src="img/contacts/contacts-6.svg" alt="Vkontakte"></a>
+							<div class="contacts-logo__text">vkontakte</div>
+						</div>
+					</div>
+				</div>
+				<div class="contacts-form">
+					<form action="mail.php" class="contacts-form__main-form">
+						<fieldset>
+							<legend>Или оставьте данные и мы перезвоним</legend>
+							<div class="group">
+								<input type="text" id="contact__name" autocomplete="off" placeholder="Введите имя">
+								<label for="contact__name">Введите имя</label>
+
+								<input type="tel" id="contact__tel" autocomplete="off" placeholder="Введите Телефон">
+								<label for="contact__tel">Введите Телефон</label>
+							</div>
+							<div class="group">
+								<input type="text" id="contact__message" autocomplete="off" placeholder="Оставьте комментарий">
+								<label for="contact__message">Оставьте комментарий</label>
+
+								<input id="contact__submit" type="submit" value="Отправить заявку">
+							</div>
+						</fieldset>
+					</form>
+					<div class="contacts-politics">
+						Пользуясь сайтом photoguide.biz и оставляя заявку Вы соглашаетесь с <a href="#">Политикой конфиденциальности</a> нашей компании. Мы гарантируем,
+						что Ваши данные будут использоваться только для связи с Вами и не будут переданы третьим лицам.
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer class="footer">
+		<div class="container">
+			<div class="footer__inner">
+				<div class="footer-descr">
+					<span class="footer-descr__rights">2019 © Photoguide.biz. All rights reserved. Бренд упакован <a href="#">Digital Butlers.</a></span>
+				</div>
+			</div>
+		</div>
+	</footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+  <script src="js/libs.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
