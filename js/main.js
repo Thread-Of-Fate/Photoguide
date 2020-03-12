@@ -8,6 +8,8 @@ $('.gallery-slider').slick ({
 	asNavFor: '.gallery-popup',
 	slidesToShow: 1.010,
 	slidesToScroll: 1,
+	autoplay: true,
+	autoplaySpeed: 2800,
 	 responsive: [
     {
       breakpoint: 1387,
