@@ -472,8 +472,9 @@
 
 	}
 	.team-photos {
-    max-width: 760px;
-    padding: 0px 70px 0 87px;
+		overflow: hidden;
+    max-width: 300px;
+    padding: 0px;
 	}
 	.team-descr {
     padding: 40px 20px;
@@ -557,6 +558,7 @@
 		margin-bottom: 10px;
 	}
 	.contacts-form {
+		margin: 0;
 		input {
 			&[type="tel"]:focus {
 				& + label {
@@ -643,5 +645,41 @@
   }
 	.footer-descr__rights {
 		font-size: 11px;
+	}
+	.contacts-form {
+		fieldset {
+			padding: 0 10px;
+			.group {
+				input {
+					margin-right: 0;
+				}
+			}
+		}
+	}
+	.contacts__inner {
+		padding: 10px 0;
+	}
+	.tarrifs-box__price {
+    padding: 10px 25px 35px;
+	}
+	.tariffs-items {
+		.tariffs-box__descr {
+			padding-left: 5px;
+		}
+	}
+	.contacts__inner {
+		overflow: hidden;
+	}
+	.contacts-form {
+		fieldset {
+			padding: 0;
+		}
+	}
+	.contacts-form .group {
+    max-width: 289px;
+    margin: 10px;
+  }
+  .team-photos {
+    max-width: 280px;
 	}
 }
